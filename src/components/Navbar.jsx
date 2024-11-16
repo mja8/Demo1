@@ -9,10 +9,10 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-dark-navy text-white p-4">
-      <div className="container mx-auto flex justify-between items-center">
+    <nav className="bg-dark-navy text-white h-20"> {/* Increased height */}
+      <div className="container mx-auto flex justify-between items-center h-full">
         {/* Brand Name */}
-        <div className="font-bold text-lg">Airforce School Darbhanga</div>
+        <div className="font-bold text-2xl ">Airforce School Darbhanga</div>
 
         {/* Hamburger Icon for Small Screens */}
         <button
@@ -27,7 +27,7 @@ const Navbar = () => {
           {[
             { name: "Home", path: "/" },
             { name: "About Us", path: "/about" },
-            { name: "Faculties", path: "/faculties" }, // Updated Path
+            { name: "Faculties", path: "/faculties" },
             { name: "Academics", path: "/academics" },
             { name: "Facilities", path: "/facilities" },
             { name: "Locate Us", path: "/locate-us" },
@@ -61,7 +61,7 @@ const Navbar = () => {
             {[
               { name: "Home", path: "/" },
               { name: "About Us", path: "/about" },
-              { name: "Faculties", path: "/faculties" }, // Updated Path
+              { name: "Faculties", path: "/faculties" },
               { name: "Academics", path: "/academics" },
               { name: "Facilities", path: "/facilities" },
               { name: "Locate Us", path: "/locate-us" },
