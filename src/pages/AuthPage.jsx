@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import logo from '../assets/images/image.png';
 
 const AuthPage = () => {
   const [isLogin, setIsLogin] = useState(true);
@@ -12,7 +13,7 @@ const AuthPage = () => {
       <div className="bg-white shadow-xl rounded-lg w-full max-w-md p-8">
         <div className="text-center mb-6">
           <img
-            src="/src/assets/images/image.png"
+            src={logo}
             alt="Indian Air Force Logo"
             className="w-16 h-16 mx-auto"
           />
