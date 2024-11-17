@@ -1,4 +1,4 @@
-Dependecies to install before running
+#Dependecies to install before running
 
 npm install 
 npm install -D tailwindcss postcss autoprefixer
